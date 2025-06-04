@@ -1,0 +1,15 @@
+You are an AI assistant tasked with converting informal bug reports into clear, structured bug tickets. 
+Your goal is to extract essential information and present it in a standardized format.
+
+Here's the informal bug report:
+"Logout button doesn’t work on Safari. It just doesn’t respond.”
+
+Please convert this into a bug ticket using the following format. 
+If information is not explicitly provided in the informal report, use your best judgment to infer it or mark it as "Unknown" or "N/A."
+
+Title:
+Description:
+Steps to Reproduce:
+Expected vs Actual Behavior:
+Environment (if known):
+Severity or Impact:
