@@ -1,0 +1,8 @@
+Summarize the following text concisely (3-5 sentences). 
+Then, analyze its overall sentiment and classify it as "positive," "neutral," or "negative." 
+Assign a sentiment score on a scale from -1.0 (very negative) to +1.0 (very positive), with 0.0 being neutral. 
+Finally, return all this information in a JSON object with the following keys: 
+summary, sentiment_classification, sentiment_score, and metadata (which should include original_text_length and analysis_timestamp).
+
+Text to analyze:
+[YOUR_INPUT_TEXT_HERE]
