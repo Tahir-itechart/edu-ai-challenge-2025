@@ -1,0 +1,37 @@
+Please analyze the following code snippet from three distinct expert perspectives. For each perspective, provide specific, actionable recommendations and observations to improve the code.
+
+**Code Snippet:**
+def process_user_data(data):
+    users = []
+    
+    for i in range(len(data)):
+        user = {
+            "id": data[i]["id"],
+            "name": data[i]["name"],
+            "email": data[i]["email"],
+            "active": True if data[i]["status"] == "active" else False
+        }
+        users.append(user)
+    
+    print("Processed " + str(len(users)) + " users")
+    
+    return users
+
+def save_to_database(users):
+    # TODO: Implement database connection
+    success = True
+    return success
+
+**Expert Perspectives:**
+
+1.  **Experienced Developer:**
+    * Focus: Code readability, maintainability, adherence to best practices, design patterns, and overall code quality.
+    * Recommendations & Observations:
+
+2.  **Security Engineer:**
+    * Focus: Potential vulnerabilities, security best practices, input validation, authentication/authorization, data protection, and secure coding principles.
+    * Recommendations & Observations:
+
+3.  **Performance Specialist:**
+    * Focus: Efficiency, resource utilization (CPU, memory, I/O), algorithmic complexity, potential bottlenecks, and scalability.
+    * Recommendations & Observations:
