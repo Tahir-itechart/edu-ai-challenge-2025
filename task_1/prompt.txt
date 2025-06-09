@@ -1,0 +1,14 @@
+I am designing a social platform that will have millions of users. 
+The system must store user profiles, posts, and the connections between users. 
+It requires high data read speed, with an expected operation ratio of 80% reads and 20% writes. 
+Scalability is a critical concern due to expected user growth.
+
+Please analyze the project requirements using step-by-step Chain-of-Thought reasoning to determine 
+the most suitable type of database (e.g., relational, NoSQL document, graph, key-value, etc.) for this use case.
+
+Your analysis should include:
+
+an examination of each requirement,
+the impact of those requirements on database choice,
+a comparison of possible database types based on the requirements,
+a final justified recommendation of the best type of database for this project.
