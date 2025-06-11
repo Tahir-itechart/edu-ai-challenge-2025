@@ -1,0 +1,17 @@
+{
+    "name": "seabattle-refactored",
+    "version": "1.0.0",
+    "description": "A refactored CLI Sea Battle game.",
+    "main": "src/main.js",
+    "type": "module",
+    "scripts": {
+        "start": "node src/main.js",
+        "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js --coverage"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "jest": "^29.7.0"
+    }
+}
