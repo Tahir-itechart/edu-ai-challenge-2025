@@ -1,5 +1,3 @@
-# edu-ai-challenge-2025
-
 ## Project Overview
 
 This project provides a lightweight console application that generates comprehensive, markdown-formatted reports for digital services or products. The report includes business, technical, and user-focused perspectives, and is powered by OpenAI's GPT-4.1-mini model.
