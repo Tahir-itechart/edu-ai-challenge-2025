@@ -16,7 +16,7 @@ This project provides a lightweight console application that generates comprehen
   - Tech Stack Insights
   - Perceived Strengths
   - Perceived Weaknesses
-- Output can be printed to the console **or written to a file**
+- Output can be printed to the console or written to a file
 - Uses OpenAI API for AI-driven analysis
 
 ## Setup Instructions
@@ -49,9 +49,9 @@ Run the application:
 ```bash
 python app.py
 ```
-- Choose output mode: print the report to the console **or write it to a file**
+- Choose output mode: print the report to the console or write it to a file
 - Enter a service name (e.g., `Spotify`) or paste a description
-- View the generated markdown report in your terminal, **or open the file you specified**
+- View the generated markdown report in your terminal, or open the file you specified
 
 ## Sample Output
 
@@ -67,33 +67,3 @@ See `sample_outputs.md` for example reports.
 - Python 3.8+
 - openai
 - python-dotenv
-
-## License
-
-[MIT](LICENSE) (or your chosen license)
-
-## Example
-```
-Enter a known service name (e.g., 'Spotify', 'Notion') or paste a raw service description. Press Enter when done:
-Spotify
-
---- Markdown Report ---
-
-# Service Analysis Report
-
-**Business Perspective**
-
-Analysis of: Spotify
-
-**Technical Perspective**
-
-Technical analysis of: Spotify
-
-**User Perspective**
-
-User-focused analysis of: Spotify
-```
-
----
-
-*This is a simulation. For real AI-driven analysis, integrate with an LLM API.* 
