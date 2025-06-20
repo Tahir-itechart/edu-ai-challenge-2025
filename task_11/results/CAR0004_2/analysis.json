@@ -1,0 +1,34 @@
+{
+  "word_count": 968,
+  "speaking_speed_wpm": 129,
+  "frequently_mentioned_topics": [
+    {
+      "topic": "Chest pain",
+      "mentions": 15
+    },
+    {
+      "topic": "Pain characteristics (sharp, location, duration)",
+      "mentions": 10
+    },
+    {
+      "topic": "Pain triggers and relief (coughing, lying down, leaning forward)",
+      "mentions": 6
+    },
+    {
+      "topic": "Other symptoms (shortness of breath, dizziness, palpitations)",
+      "mentions": 4
+    },
+    {
+      "topic": "Pain rating",
+      "mentions": 2
+    },
+    {
+      "topic": "Medication taken (Tylenol)",
+      "mentions": 2
+    },
+    {
+      "topic": "Onset and frequency of pain",
+      "mentions": 4
+    }
+  ]
+}
